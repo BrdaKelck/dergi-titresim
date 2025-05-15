@@ -1,0 +1,27 @@
+#signin-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--theme-color);
+    justify-content: center;
+}
+
+#signin{
+    width: 70%;
+    margin-block: 50px;
+}
+
+#mesage{
+    font-size: 30px;
+}
+
+#signin-section{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}

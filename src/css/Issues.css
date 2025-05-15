@@ -1,0 +1,30 @@
+#issues-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--theme-color);
+    justify-content: center;
+    align-items: center;
+}
+
+#issue{
+    width: 70%;
+    min-height: 70vh;
+    margin-block: 50px;
+}
+
+.card-image-costum{
+    height: 300px;
+}
+
+#card-header{
+    font-size: 30px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+}
+
+#card-explain{
+    min-height: 40vh;
+    color: black;
+}

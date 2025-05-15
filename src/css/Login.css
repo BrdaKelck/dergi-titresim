@@ -1,0 +1,41 @@
+#page-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--theme-color);
+    min-height: 100vh;
+}
+#section{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;    
+    border-bottom:2px solid rgb(130, 127, 127);
+}
+
+#section button{
+    width: 150px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#section button:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-block: 50px;
+}

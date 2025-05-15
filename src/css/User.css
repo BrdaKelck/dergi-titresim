@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#user-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--theme-color);
+    min-height: 100vh;
+    color: white;
+}
+/* white tema için: rgb(212, 214, 215)*/
+#user-section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#user-options{
+    height: 100px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+#new-issue{
+    color: white;
+    background-color: rgb(44, 48, 71);
+    width: 100px;
+    height: 50px;
+    border-width: 0;
+    transition: 0.1s ease;
+}
+
+#change-issue{
+    color: white;
+    background-color: rgb(44, 48, 71);
+    width: 100px;
+    height: 50px;
+    border-width: 0;
+    transition: 0.1s ease;
+}
+
+#new-issue:hover{
+    background-color: green;
+}
+
+#change-issue:hover{
+    background-color: rgb(107, 107, 36);
+}
+
+#option-section{
+    border-top: 2px solid rgb(114, 112, 112);
+    flex:1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#new-issue-form{
+    width: 80%;
+    min-height: 100vh;
+}
+
+#form-description {
+    height: 200px;
+    width: 100%; /* Genişliği %100 yaparak tam genişlik sağlama */
+    box-sizing: border-box; /* Padding ve border'ı genişliğe dahil eder */
+    position: relative; /* İçerik konumlandırması için */
+
+}
+
+/* Placeholder metninin stilini ayarlamak için */
+#form-description::placeholder {
+    color: #888; /* Placeholder metninin rengini ayarlayın */
+    font-size: 14px; /* Font boyutunu ayarlayın */
+    text-align: left; /* Metni sola hizala */
+    position: absolute; /* Konumlandırma */
+    top: 0; /* Üstten 0 mesafe */
+    left: 0; /* Soldan 0 mesafe */
+    margin: 0; /* Varsayılan margin'ı kaldırır */
+    line-height: 1.5; /* Satır yüksekliğini ayarla */
+}
