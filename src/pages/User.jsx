@@ -6,7 +6,7 @@ import Client from "../components/Client";
 export default function User () {
   const uid = useSelector((state) => state.addUid.uid);
   const [isAdmin, setIsAdmin] = useState(false);
-  const adminUid1 = "wQmjwsQgTgb6At088lOWcUnLYIg1";
+  const adminUid1 = "admin-uid";
 
   useEffect(()=>{
     if(uid===adminUid1){setIsAdmin(true);}
